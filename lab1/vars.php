@@ -23,7 +23,6 @@ unset($name, $age);
 </head>
 <body>
 	<h1>Переменные и вывод</h1>
-	<?php
 	/*
 	ЗАДАНИЕ 2
 	- Выведите с помощью echo фразу "Меня зовут: $name", например: 'Меня зовут: Иван'.
@@ -33,10 +32,10 @@ unset($name, $age);
 	- Измените код так, чтобы каждая фраза начиналась с новой строки.
 	- Изолируйте код PHP от HTML-разметки.
 	*/
-  <p><?php echo $output1; ?></p>
+	<p><?php echo $output1; ?></p>
 	<p><?php echo $output2; ?></p>
 	<p><?php echo $output3; ?></p>
 	<p><?php echo $output4; ?></p>
-	?> 
+	
 </body>
 </html>
